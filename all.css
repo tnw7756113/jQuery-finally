@@ -59,12 +59,7 @@ table {
 	margin: 0 auto;
 	width: 1000px;
 }
-@media (max-width:768px) {
-	.main{
-		margin: 0;
-		width: 100%;
-	}
-}
+
 .menu1{
 	padding: 5px;
 	background-color: #f6f6f6;
@@ -88,16 +83,7 @@ table {
 	float: left;
 	margin-right: 5px;
 }
-@media (max-width:768px) {
-	.menu1 ul{
-		float: none;
-		display: flex;
-		justify-content: center;
-	}
-	.menu1 ul li{
-		float: none;
-	}
-}
+
 .facebook{
 	border-right: 1px solid #cccccc;
 }
@@ -122,13 +108,7 @@ table {
     overflow: hidden;
     white-space: nowrap;
 }
-@media (max-width:768px){
-	.menu2 h1{
-		float: none;
-		margin: 0 auto;
-		width: 200px;
-	}
-}
+
 .menu2 ul{
 	width: 300px;
 	display: flex;
@@ -149,23 +129,7 @@ table {
 .menu2 ul li a:hover{
 	border-bottom: 3px solid #00cc99;
 }
-@media (max-width:768px){
-	.menu2 ul{
-		float: none;
-		width: 100%;
-	}
-	.menu2 ul li{
-		width: 90%;
-	}
-	.menu2 ul li a{
-		padding: 15px;
-	}
-	.menu2 ul li a:hover{
-		border: 0;
-		background-color: #00cc99;
-		color: white;
-	}
-}
+
 .banner{
 	height: 350px;
 	background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png);
@@ -182,16 +146,7 @@ table {
 	top: 25%;
 	padding: 40px 0 40px 20px;
 }
-@media (max-width:768px) {
-	.banner{
-		width: 100%;
-		background-size: 100%;
-	}
-	.banner h2{
-		top: auto;
-		background-size: 100%;
-	}
-}
+
 .course{
 	margin: 60px 5px 0px;
 	display: flex;
