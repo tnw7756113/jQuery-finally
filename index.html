@@ -4,50 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8.3.2/swiper-bundle.min.css">
-    <link rel="stylesheet" href="all.css">
+    <meta name="description" content="六角學院，讓你奠定良好的前端基礎">
+    <meta name="keywords" content="六角學院, 六角">
+    <title>六角學院</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="main">
-        <!-- Slider main container -->
-        <div class="swiper">
-            <h1>風景圖</h1>
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide"><img class="example-image" src="https://images.pexels.com/photos/620337/pexels-photo-620337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></div>
-            <div class="swiper-slide"><img class="example-image" src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></div>
-            <div class="swiper-slide"><img class="example-image" src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></div>
-            
+        <div class="header">
+            <div class="menu1 clearfix">
+                <ul>
+                    <li class="facebook">
+                        <a href="#">
+                            <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/facebookIcon.png" alt="fb_icon">
+                            <span>粉絲團</span>
+                        </a>
+                    </li>
+                    <li class="twitter">
+                        <a href="#">
+                            <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/twitterIcon.png" alt="twitter_icon">
+                            <span>追隨我們</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-        
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        
-            <!-- If we need scrollbar -->
-            <!--<div class="swiper-scrollbar"></div>-->
+            <div class="menu2 clearfix">
+                <h1><a href="#">Hexlogo</a></h1>
+                <ul>
+                    <li><a href="#">首頁</a></li>
+                    <li><a href="#">產品介紹</a></li>
+                    <li><a href="#">聯絡我們</a></li>
+                </ul>
+            </div>
         </div>
-        <!--lightbox-->
-        <div class="lightbox-show">
-            <div class="lightbox1">
-                <a href="https://images.pexels.com/photos/663487/pexels-photo-663487.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" data-lightbox="group"><img class="example-image" src="https://images.pexels.com/photos/663487/pexels-photo-663487.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt=""></a>
-                <a href="https://images.pexels.com/photos/3934023/pexels-photo-3934023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-lightbox="group"><img class="example-image" src="https://images.pexels.com/photos/3934023/pexels-photo-3934023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""></a>
-                <a href="https://images.pexels.com/photos/2387966/pexels-photo-2387966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-lightbox="group"><img class="example-image" src="https://images.pexels.com/photos/2387966/pexels-photo-2387966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""></a>
-                <a href="https://images.pexels.com/photos/3762284/pexels-photo-3762284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-lightbox="group"><img class="example-image" src="https://images.pexels.com/photos/3762284/pexels-photo-3762284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""></a>
-                <a href="https://images.pexels.com/photos/4558557/pexels-photo-4558557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-lightbox="group"><img class="example-image" src="https://images.pexels.com/photos/4558557/pexels-photo-4558557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""></a>
+        <div class="content">
+            <div class="banner">
+                <h2>六角學院<br>讓你奠定良好的前端基礎</h2>
             </div>
+            <ul class="course">
+                <li>
+                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/html.png" alt="html">
+                    <h3>Html 5 基礎教學</h3>
+                    <p>主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，
+                        而透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，
+                        讓學員學習業界主流的開發方法。</p>
+                </li>
+                <li>
+                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/rwd.png" alt="jQuery">
+                    <h3>響應式網站設計</h3>
+                    <p>響應式網站設計(Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，
+                        響應式網站已經是必備的，六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>
+                </li>
+                <li>
+                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/jQuery.png" alt="RWD">
+                    <h3>jQuery 實戰教學</h3>
+                    <p>本課程有以下特色
+                        <ul class="jquery-ul">
+                            <li>瞭解變數的使用方法</li>
+                            <li>學習並操作DOM</li>
+                            <li>學習基本數學運算方法</li>
+                            <li>套件的操作及運用</li>
+                        </ul>
+                    </p>
+                </li>
+            </ul>
+
+            <h2 class="content-h2">線上及實體課程的差異</h2>
+            <table>
+                <tr>
+                    <th>項目</th>
+                    <th>Hex School線上課程</th>
+                    <th>一般線上課程</th>
+                    <th>實體課程</th>
+                </tr>
+                <tr>
+                    <td>費用</td>
+                    <td class="green">較低</td>
+                    <td class="green">較低</td>
+                    <td>較高</td>
+                </tr>
+                <tr>
+                    <td>學習效果</td>
+                    <td>一般</td>
+                    <td class="green">較低</td>
+                    <td class="green">很好</td>
+                </tr>
+                <tr>
+                    <td>Code review</td>
+                    <td class="green">有</td>
+                    <td>無</td>
+                    <td>不一定</td>
+                </tr>
+                <tr>
+                    <td>課程更新速度</td>
+                    <td class="green">普通</td>
+                    <td class="green">普通</td>
+                    <td>較慢</td>
+                </tr>
+                <tr>
+                    <td>多次複習</td>
+                    <td class="green">可</td>
+                    <td>可</td>
+                    <td>不可</td>
+                </tr>
+                <tr>
+                    <td>字幕</td>
+                    <td class="green">有</td>
+                    <td>不一定</td>
+                    <td>板書</td>
+                </tr>
+            </table>
+
+            <form action="index.html">
+                <h2 class="form-h2">對我們課程有興趣嗎？<br>歡迎留下您的資料</h2>
+                <div class="customer-data">
+                    <textarea name="content" id="" placeholder="有什麼意見想跟我們說嗎？"></textarea>
+                    <div class="input-data">
+                        <label for="name">姓名</label>
+                        <input id="name" type="text" name="name" placeholder="請輸入姓名">
+                        <label for="tel">電話</label>
+                        <input id="tel" type="tel" name="tel" placeholder="請輸入電話">
+                        <label for="mail">信箱</label>
+                        <input id="mail" type="email" name="mail" placeholder="請輸入信箱">
+                        <div class="button">
+                            <input type="submit" value="送出">
+                        </div> 
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <h2><a href="#">footerLogo</a></h2>
+            <ul class="contact">  
+                <li>聯絡我們：<a href="mailto:">hexschool@gmail.com</a></li>
+                <li>電話：<a href="tel:+">0999123456</a></li>               
+            </ul>
         </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8.3.2/swiper-bundle.min.js"></script>
-    <script src="all.js"></script>
-    
 </body>
 </html>
