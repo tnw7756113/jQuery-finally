@@ -15,7 +15,7 @@ $(document).ready(function () {
         'wrapAround': true,
     })
 
-    //swiper效果
+    //swiper效果設定
     const swiper = new Swiper('.swiper', {
         // Optional parameters
         direction: 'horizontal',
@@ -24,6 +24,7 @@ $(document).ready(function () {
         effect: 'slide',
         autoplay: {
           delay: 2000,
+          disableOnInteraction: false,
         },
       
         // If we need pagination
