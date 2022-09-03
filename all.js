@@ -22,6 +22,9 @@ $(document).ready(function () {
         loop: true,
         speed: 800,
         effect: 'slide',
+        autoplay: {
+          delay: 2000,
+        },
       
         // If we need pagination
         pagination: {
