@@ -1,11 +1,11 @@
 $(document).ready(function () {
 
-    $('.menu2>ul>li>a').click(function (e) { 
+    $('.second-menu>ul>li>a').click(function (e) { 
       e.preventDefault();
       $(this).parent().siblings().find('ul').slideUp();
       $(this).parent().find('ul').slideToggle();
 
-      $(this).addClass('border-green');
+      $(this).toggleClass('border-green');
       $(this).parent().siblings().find('a').removeClass('border-green');
   });
 

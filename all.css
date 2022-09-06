@@ -60,26 +60,26 @@ table {
 	width: 1000px;
 }
 
-.menu1{
+.first-menu{
 	padding: 5px;
 	background-color: #f6f6f6;
 }
-.menu1 ul{
+.first-menu ul{
 	float: right;
 }
-.menu1 ul li{
+.first-menu ul li{
 	float: left;
 	padding: 5px;
 }
-.menu1 ul li a{
+.first-menu ul li a{
 	text-decoration: none;
 	font-size: 16px;
 	font-weight: bold;
 }
-.menu1 ul li a:hover{
+.first-menu ul li a:hover{
 	text-decoration: underline;
 }
-.menu1 ul li img{
+.first-menu ul li img{
 	float: left;
 	margin-right: 5px;
 }
@@ -93,13 +93,13 @@ table {
 .twitter span{
 	color: #21b4ed;
 }
-.menu2{
+.second-menu{
 	padding: 0px 5px;
 }
-.menu2 h1{
+.second-menu h1{
 	float: left;
 }
-.menu2 h1 a{
+.second-menu h1 a{
 	background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png);
 	width: 200px;
 	height: 55px;
@@ -109,16 +109,16 @@ table {
     white-space: nowrap;
 }
 
-.menu2>ul{
+.second-menu>ul{
 	width: 300px;
 	display: flex;
 	float: right;
 }
-.menu2 ul li{
+.second-menu ul li{
 	width: 100px;
 	text-align: center;
 }
-.menu2>ul>li>a{
+.second-menu>ul>li>a{
 	text-decoration: none;
 	background-color: white;
 	color: #00cc99;
@@ -128,7 +128,7 @@ table {
     display: block;
 	position: relative;
 }
-.menu2>ul>li>a:hover,.border-green{
+.second-menu>ul>li>a:hover,.border-green{
 	border-bottom: 3px solid #00cc99;
 }
 
@@ -251,7 +251,7 @@ table {
 	margin-top: 60px;
 	padding: 20px;
 }
-.form-h2{
+.content form h2{
 	font-size: 26px;
 	color: white;
 	font-weight: bold;
@@ -265,6 +265,7 @@ table {
 	width: 450px;
 	height: 230px;
 	font-size: 16px;
+	resize: none;
 }
 input{
 	display: block;
@@ -298,6 +299,7 @@ input{
 	color: white;
 	border-radius: 3px;
 	border: 0;
+	margin-left: auto;
 }
 .button input:hover{
 	box-shadow: 1px 1px 10px #00cc99;
